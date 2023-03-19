@@ -1,0 +1,62 @@
+html {
+  font-size: 1rem; }
+  html header {
+    background-image: url("../../public/assets/headerMovile.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed; }
+    html header a {
+      color: white;
+      -webkit-transition: -webkit-transform .3s ease;
+      transition: -webkit-transform .3s ease;
+      transition: transform .3s ease;
+      transition: transform .3s ease, -webkit-transform .3s ease;
+      -webkit-transition: transform .3s ease;
+      -moz-transition: transform .3s ease;
+      -ms-transition: transform .3s ease;
+      -o-transition: transform .3s ease; }
+    html header a:hover {
+      color: white;
+      transform: scale(1.05, 1.05);
+      -webkit-transform: scale(1.05, 1.05);
+      -moz-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+      -o-transform: scale(1.05, 1.05); }
+    html header .fa {
+      font-size: 2rem; }
+  html body {
+    background-color: rgba(230, 227, 227, 0.788); }
+  html #servicios {
+    padding-top: 5rem; }
+  html .max-h-sc {
+    max-height: 200px; }
+  html .piedepaguina {
+    background: #111111;
+    color: #fff;
+    font-size: 1rem; }
+    html .piedepaguina p {
+      opacity: .7; }
+    html .piedepaguina .redes-sociales {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      html .piedepaguina .redes-sociales a {
+        color: #fff;
+        font-size: 2rem;
+        margin: 0 .5rem;
+        opacity: .7;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s; }
+      html .piedepaguina .redes-sociales a:hover {
+        opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
