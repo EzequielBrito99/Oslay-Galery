@@ -1,0 +1,44 @@
+html{
+    font-size: 1rem;
+}   
+
+body{
+    background-color: lighten($color_primary, 5);
+}
+
+#servicios{
+    padding-top: 5rem;
+}
+
+.max-h-sc{
+    max-height: 200px;
+}
+    
+
+.bg-primary{
+    background-color: $color_primary !important;
+}
+
+.bg-primary-ligth{
+    background-color: lighten( $color_primary, 20) !important;
+}
+
+.bg-secondary{
+    background-color: $color_secondary !important;
+}
+
+.text-primary{
+    color: $color_primary !important;
+}
+
+.text-secondary{
+    color: $color_secondary !important;
+}
+
+.text-dark{
+    color: $color_dark !important;
+}
+  
+  
+  
+  

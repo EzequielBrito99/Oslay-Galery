@@ -14,14 +14,14 @@ const Header = () => {
   }, [ancho]);
 
   return (
-    <header id='inicio' className='text-white d-flex flex-column justify-content-center align-items-center' 
+    <header className='header-wrapper d-flex flex-column justify-content-center align-items-center' 
             style={{backgroundImage: fondo}}
     >
-      <h1 className='display-1'>Oslay</h1>
+      <h1>Oslay Moya</h1>
       <p className=''>Artista plástico</p>
       <a href="#contenido"><i className="fa fa-angle-double-down mt-5" aria-hidden="true"></i></a>
-    </header>
-  )
-}
+    </header>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  );
+};
 
 export default Header

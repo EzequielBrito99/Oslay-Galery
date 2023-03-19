@@ -1,0 +1,47 @@
+header{
+    background-image: url('../../../public/assets/headerMovile.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: lighten($color_primary, 15);
+
+    h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    a{
+        color: $color_primary;
+        transition: transform .3s ease;
+        -webkit-transition: transform .3s ease;
+        -moz-transition: transform .3s ease;
+        -ms-transition: transform .3s ease;
+        -o-transition: transform .3s ease;
+    }
+    a:hover{
+        color: white;
+        transform: scale(1.05,1.05);
+        -webkit-transform: scale(1.05,1.05);
+        -moz-transform: scale(1.05,1.05);
+        -ms-transform: scale(1.05,1.05);
+        -o-transform: scale(1.05,1.05);
+    }
+
+    .fa{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    header{
+        h1{
+        font-size: 6rem;
+            font-weight: 200;
+        }
+    }
+}
