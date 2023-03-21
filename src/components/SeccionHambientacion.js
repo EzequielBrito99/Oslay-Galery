@@ -8,10 +8,12 @@ const SeccionHambientacion = () => {
   useEffect(() => {
       animateScroll.scrollToTop();
   }, []);
+
+  const description = "Aquí encontrarás una amplia variedad de opciones para crear el ambiente perfecto en tu negocio. Desde espacios pequeños hasta amplios y panorámicos. Garantizando la calidad de las pinturas y aspecto brillante en el acabado de las locaciones.";
   
   return (
     <div className="container">
-    <CustomHeader title='Ambientación' description='Servicio de ambientacion de locales...' />
+    <CustomHeader title='Ambientación' description={description} buttonText='Contratar Servicio' />
       <div className="row">
         <div className="col-12 col-sm-4">
           <ObraList tipo="hambientacion" col="1" />
