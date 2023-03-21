@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.18e2604d.css",
-    "main.js": "/static/js/main.ce24474c.js",
-    "static/media/headerMovile.jpg": "/static/media/headerMovile.3011600bf7b6046c5245.jpg",
-    "index.html": "/index.html",
-    "main.18e2604d.css.map": "/static/css/main.18e2604d.css.map",
-    "main.ce24474c.js.map": "/static/js/main.ce24474c.js.map"
+    "main.css": "/Oslay-Galery/static/css/main.d853c001.css",
+    "main.js": "/Oslay-Galery/static/js/main.70d0566e.js",
+    "static/media/headerMovile.jpg": "/Oslay-Galery/static/media/headerMovile.3011600bf7b6046c5245.jpg",
+    "index.html": "/Oslay-Galery/index.html",
+    "main.d853c001.css.map": "/Oslay-Galery/static/css/main.d853c001.css.map",
+    "main.70d0566e.js.map": "/Oslay-Galery/static/js/main.70d0566e.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e2604d.css",
-    "static/js/main.ce24474c.js"
+    "static/css/main.d853c001.css",
+    "static/js/main.70d0566e.js"
   ]
 }
