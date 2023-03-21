@@ -17,6 +17,7 @@ const AppRoute = () => {
                 <Route path='/simples' element={<SeccionSimple/>}></Route>
                 <Route path='/tripticos' element={<SeccionTripticos/>}></Route>
                 <Route path='/hambientacion' element={<SeccionHambientacion/>}></Route>
+                <Route path='/Oslay-Galery' element={<GaleriaApp />}></Route>
                 <Route path='/' element={<GaleriaApp />}></Route>
             </Routes>
             <Footer />

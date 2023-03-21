@@ -41,7 +41,6 @@ import { Carousel } from 'react-bootstrap';
 
 
 const CustomCarousel = ({ images, id }) => {
-  console.log(images)
 
   const [index, setIndex] = useState(0);
 
