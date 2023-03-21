@@ -11,7 +11,7 @@ const SeccionHambientacion = () => {
   
   return (
     <div className="container">
-    <CustomHeader title='Hambientación' description='Servicio de hambientacion de locales...' />
+    <CustomHeader title='Ambientación' description='Servicio de ambientacion de locales...' />
       <div className="row">
         <div className="col-12 col-sm-4">
           <ObraList tipo="hambientacion" col="1" />

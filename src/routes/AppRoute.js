@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Footer from '../components/Footer'
 import SeccionHambientacion from '../components/SeccionHambientacion'
 import SeccionSimple from '../components/SeccionSimple'
@@ -11,17 +11,17 @@ import GaleriaApp from '../GaleriaApp'
 const AppRoute = () => {
   return (
     <div>
-        <BrowserRouter>
+        <HashRouter>
             <NavBar/>
             <Routes>
                 <Route path='/simples' element={<SeccionSimple/>}></Route>
                 <Route path='/tripticos' element={<SeccionTripticos/>}></Route>
                 <Route path='/hambientacion' element={<SeccionHambientacion/>}></Route>
-                <Route path='/Oslay-Galery' element={<GaleriaApp />}></Route>
+                <Route path='/Oslay-Galery/' element={<GaleriaApp />}></Route>
                 <Route path='/' element={<GaleriaApp />}></Route>
             </Routes>
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
     </div>
   )
 }

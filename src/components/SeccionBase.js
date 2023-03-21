@@ -14,7 +14,7 @@ const SeccionBase = () => {
       <div id='servicios' className="row">
         <SeccionCard id='carousel2' titulo='Simples' descripcion='Cuadros de una pieza por encargos.' images={imgsSimple} boton='simples'/>
         <SeccionCard id='carousel3' titulo='Tripticos' descripcion='Cuadros de mas de una pieza por encargos' images={imgsTriptico} boton='tripticos'/>
-        <SeccionCard id='carousel1' titulo='Hambientacion' descripcion='Servicio de hambientacion de locales.' images={imgsHambientacion} boton='hambientacion'/>
+        <SeccionCard id='carousel1' titulo='Ambientacion' descripcion='Servicio de ambientacion de locales.' images={imgsHambientacion} boton='ambientacion'/>
       </div>
     </div>
   )

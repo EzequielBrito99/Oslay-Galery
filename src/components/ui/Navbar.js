@@ -13,7 +13,7 @@ const NavBar = () => {
               <NavLink className="nav-link" aria-current="page" to="/">inicio</NavLink>
               <NavLink className="nav-link" to="/simples">simple</NavLink>
               <NavLink className="nav-link" to="/tripticos">tríptico</NavLink>
-              <NavLink className="nav-link" to="/hambientacion">hambientación</NavLink>
+              <NavLink className="nav-link" to="/hambientacion">ambientación</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
