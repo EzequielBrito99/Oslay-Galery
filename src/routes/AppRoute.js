@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import SeccionHambientacion from '../components/SeccionHambientacion'
 import SeccionSimple from '../components/SeccionSimple'
 import SeccionTripticos from '../components/SeccionTripticos'
-import Navbar from '../components/ui/Navbar'
+import NavBar from '../components/ui/NavBar'
 import GaleriaApp from '../GaleriaApp'
 
 
@@ -12,7 +12,7 @@ const AppRoute = () => {
   return (
     <div>
         <BrowserRouter>
-            <Navbar/>
+            <NavBar/>
             <Routes>
                 <Route path='/simples' element={<SeccionSimple/>}></Route>
                 <Route path='/tripticos' element={<SeccionTripticos/>}></Route>

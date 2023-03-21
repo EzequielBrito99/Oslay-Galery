@@ -2,9 +2,9 @@ import React from 'react'
 import SeccionCard from './SeccionCard'
 
 const SeccionBase = () => {
-  const rutaSimple = '../../assets/simple/';
-  const rutaTriptico = '../../assets/triptico/';
-  const rutaHambientacion = '../../assets/hambientacion/';
+  const rutaSimple = `${process.env.PUBLIC_URL}/assets/simple/`;
+  const rutaTriptico = `${process.env.PUBLIC_URL}/assets/triptico/`;
+  const rutaHambientacion = `${process.env.PUBLIC_URL}/assets/hambientacion/`;
   const imgsSimple = [{'id': '1','src': `${rutaSimple}1.jpg`},{ 'id': '2', 'src': `${rutaSimple}2.jpg`}, {'id': '3','src': `${rutaSimple}3.jpg`}];
   const imgsTriptico = [{'id': '1','src': `${rutaTriptico}1.jpg`},{ 'id': '2', 'src': `${rutaTriptico}2.jpg`}, {'id': '3','src': `${rutaTriptico}3.jpg`}];
   const imgsHambientacion = [{'id': '22','src': `${rutaHambientacion}22.jpg`},{ 'id': '23', 'src': `${rutaHambientacion}23.jpg`}, {'id': '24','src': `${rutaHambientacion}24.jpg`}];

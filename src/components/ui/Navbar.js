@@ -1,35 +1,24 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
-    <>
-      <nav className="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div className="container">
-          <Link className="navbar-brand" to="/">Oslay | Galery</Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul className="navbar-nav mb-2 mb-lg-0 text-center">
-              <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">inicio</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/simples">simple</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/tripticos">tríptico</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/hambientacion">hambientación</NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </>
-  )
+    <Navbar className='navbar' variant='dark' sticky='top' expand="sm">
+      <Container>
+        <Link className="navbar-brand" to="/">Oslay | Galery</Link>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+          <Nav className="text-center">
+              <NavLink className="nav-link" aria-current="page" to="/">inicio</NavLink>
+              <NavLink className="nav-link" to="/simples">simple</NavLink>
+              <NavLink className="nav-link" to="/tripticos">tríptico</NavLink>
+              <NavLink className="nav-link" to="/hambientacion">hambientación</NavLink>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar
+export default NavBar;
