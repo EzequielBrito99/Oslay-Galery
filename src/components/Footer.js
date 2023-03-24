@@ -8,7 +8,7 @@ const Footer = () => {
             <ul className="redes-sociales">
                 <li><a href="https://www.facebook.com/oslay.moya.1"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="https://instagram.com/oslaymoyanori?igshid=YmMyMTA2M2Y="><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href=""><i className="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                <li><a href="https://wa.me/message/RNDOTBROZ5NBK1"><i className="fa fa-whatsapp" aria-hidden="true"></i></a></li>
             </ul>
             <div className='dev-link-wrapper text-muted mt-3'>
               <span className='dev-link-label'>Web desarrollada por: </span>
